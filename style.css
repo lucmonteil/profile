@@ -1,0 +1,132 @@
+/* style.css */
+body {
+  margin: 0px;
+  font-family: 'Open Sans';
+  background-image: url("images/cuisse_grenouille.png");
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat';
+}
+
+.card h1 {
+  color: rgb(20,20,20);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.little-card p {
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color: rgb(20,20,20);
+}
+
+.little-card a {
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color: rgb(20,20,20);
+}
+
+.card a:hover {
+  color: #376EB8;
+  line-height: 20px;
+  text-decoration: none;
+  }
+
+.container {
+  /*width: 500px;*/
+  margin: 3px auto;
+  background: #EBEBEB;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /*width: 800px;*/
+  margin: 20px 13%;
+}
+
+.little-card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /*width: 730px;*/
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  position: relative;
+  -webkit-filter: contrast(90%) sepia(20%);
+  filter: contrast(90%) sepia(20%);
+}
+.filter::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2));
+  background: radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2));
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.large_bkgr_image{
+  width: 1000px;
+  height: 1000px;
+}
+
+
+#profile_pic {
+  width: 250px;
+}
+
+#hobby-pic {
+  width: 200x;
+}
+
+.img-circle {
+  border-radius: 70px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.banner {
+  background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+  background-size: cover;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: ;
+  justify-content: space-around;
+}
+
+.back-image {
+  width: 200px;
+  height: 300px;
+}
